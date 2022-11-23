@@ -25,5 +25,5 @@ ENTRYPOINT [                                               \
    "-jar",                                                 \
    "-Djava.security.egd=file:/dev/./urandom",              \
    "-Dsun.net.inetaddr.ttl=0",                             \
-   "app.jar"              \
+   "spring-table-exercise.jar"              \
 ]
