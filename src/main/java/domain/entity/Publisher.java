@@ -1,5 +1,4 @@
-package domain;
-
+package domain.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,9 +11,9 @@ import javax.persistence.Id;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Book {
+public class Publisher {
     @Id
     private Long id;
-    private String name;
-    private Long authorId;
+    public String name;
+    public String address;
 }
